@@ -1,17 +1,17 @@
 #### Sobre api-clientes
 
 - API para manipular dados de clientes da Uzer Tecnologia.
-- Desenvolvida no padrão de arquitetura MVC (Model, View e Controller)
-
+- Desenvolvida no padrão de arquitetura MVC (Model, View e Controller), porém não foi desenvoolvido a View.
+- URL da aplicação: /api/v1/
+- 
 #### Ambiente de Desenvolvimento
 
-- Padrão de arquitetura MVC (Model, View e Controller)
 - Linguagem de programação PHP
 - IDE de desenvolvimento PHPStorm 2020.3.2
 - Framework Lumen (laravel enxuto para desenvolimento de APIs)
 - Banco de Dados SQLLite
 - Para testar as requisições e respostas foi utilizada a plataforma Postman
-- URL da aplicação: /api/v1/
+
 
 ### Método | URL utiliada
 
