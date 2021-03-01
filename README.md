@@ -8,6 +8,7 @@
 
 - Linguagem de programação PHP
 - IDE de desenvolvimento PHPStorm 2020.3.2
+- Gerenciador de depedências Compooser
 - Framework Lumen (laravel enxuto para desenvolimento de APIs)
 - Banco de Dados SQLLite
 - Para testar as requisições e respostas foi utilizada a plataforma Postman
