@@ -1,24 +1,28 @@
-# Lumen PHP Framework
+#### Sobre api-clientes
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/framework)](https://packagist.org/packages/laravel/lumen-framework)
+- API para manipular dados de clientes da Uzer Tecnologia.
+- Desenvolvida no padrão de arquitetura MVC (Model, View e Controller)
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+#### Ambiente de Desenvolvimento
 
-## Official Documentation
+- Padrão de arquitetura MVC (Model, View e Controller)
+- Linguagem de programação PHP
+- IDE de desenvolvimento PHPStorm 2020.3.2
+- Framework Lumen (laravel enxuto para desenvolimento de APIs)
+- Banco de Dados SQLLite
+- Para testar as requisições e respostas foi utilizada a plataforma Postman
+- URL da aplicação: /api/v1/
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+### Método | URL utiliada
 
-## Contributing
+- Listar todos os clientes: GET | /clientes
+  Exemplo: GET   | localhost:8000/api/v1/clientes
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- Inserir novo cliente: POST | /clientes                
+  Exemplo: POST  | localhost:8000/api/v1/clientes
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Pesquisar um cliente pelo ID: GET | /clientes/:id
+  Exemplo: GET   | localhost:8000/api/v1/clientes/1
+  
+- Atualizar informações de um cliente:  PATCH | /clientes/:id
+  Exemplo: PATCH | localhost:8000/api/v1/clientes/2
